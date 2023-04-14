@@ -1,0 +1,479 @@
+html {
+  padding-left:0;
+  padding-top:0;
+  margin:0;
+  font-family: 'Manrope', sans-serif;
+
+
+}
+body {
+  height: 100%;
+  width: 100%;
+  margin:0;
+
+}
+
+.hero {
+  min-height: 120px;
+  width:100vw;
+  color: #fff;
+/*   position: relative; */
+  
+  background-color: black;
+
+
+}
+ nav .menu-img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: -6px;
+    cursor: pointer;
+}
+nav {
+  display: flex;
+  align-items: center;
+  padding: 10px 5px;
+  z-index: 100000;
+}
+
+
+
+nav ul {
+  flex: 1;
+  text-align: right;
+}
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 0 20px;
+  
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.sticky {
+
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+}
+
+
+.page1 {
+  display:flex;
+  align-items:center;
+  justify-content: center;
+  background-color: black;
+  height:100vh;
+}
+
+.sunImage{
+  background-image: url("images/sun.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 70vh;
+  width:50vw;
+  
+display: flex;
+justify-content:center;
+/*   flex-basis:30%; */
+
+}
+
+
+.text-col1{
+  margin:2em;
+   color:white;
+  font-size: 2.0vh;
+  
+ 
+  max-width:50vw;
+  max-height:50vh;
+}
+
+
+.page2{
+  padding-top:2em;
+   padding-bottom:2em;
+  display:flex;
+  align-items:center;
+  justify-content: center;
+  background-color: black;
+
+  border-top-style: dotted;
+  border-width:5px;
+  border-color: white;
+
+   height:100vh;
+}
+
+.solarWind{
+  background-image: url("images/solarWind.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50vh; 
+  width:50vw;
+
+}
+
+.text-col2{
+  margin:2em;
+   color:white;
+  font-size: 2.0vh;
+  
+ 
+  max-width:50vw;
+  max-height:50vh;
+  
+}
+
+.page3{
+   padding-top:1em;
+  padding-bottom:1em;
+  display:flex;
+
+  justify-content: center;
+  background-color: black;
+
+  border-top-style: dotted;
+  border-width:5px;
+  border-color: white;
+
+   height:100vh;
+}
+
+
+.text-col3{
+  margin:1%;
+  padding-top:0;
+ display:flex;
+  align-items:top;
+  
+
+   color:white;
+  font-size: 2.0vh;
+  
+ 
+  max-width:50vw;
+  max-height:50vh;
+}
+
+.radio{
+  background-image: url("images/radio.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50vh; 
+  width:50vw;
+padding-right:0.5em;
+
+}
+
+.radioDiv{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+
+}
+
+.Jpage1{
+   padding-top:2em;
+  padding-bottom:2em;
+  display:flex;
+  align-items:center;
+  justify-content: center;
+  background-color: black;
+
+  border-top-style: dotted;
+  border-width:5px;
+  border-color: white;
+
+   height:100vh;
+}
+
+.Jtext1{
+  margin:2em;
+   color:white;
+  font-size: 3.0vh;
+  
+ 
+  max-width:50vw;
+  max-height:50vh;
+  
+}
+
+.imgsPage1{
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  flex-direction:column;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.imgsPage1, p{
+  font-size: 1.5vh;
+}
+
+.heatShield{
+  width:30vw;
+  height:25vh
+}
+
+.Furnace{
+  width:30vw;
+  height:25vh;
+}
+
+.Jpage2{
+   padding-top:2em;
+  padding-bottom:2em;
+  display:flex;
+  align-items:center;
+  justify-content: center;
+  background-color: black;
+
+  border-top-style: dotted;
+  border-width:5px;
+  border-color: white;
+
+   height:100vh;
+}
+
+.Jtext2{
+  margin:2em;
+   color:white;
+  font-size: 3.0vh;
+  
+ 
+  max-width:50vw;
+  max-height:50vh;
+  
+}
+
+.Jtext3{
+  margin:2em;
+   color:white;
+  font-size: 3.0vh;
+  
+ 
+  max-width:50vw;
+  max-height:50vh;
+  
+}
+
+.Jpage3{
+   padding-top:2em;
+  padding-bottom:2em;
+  display:flex;
+  align-items:center;
+  justify-content: center;
+  background-color: black;
+
+  border-top-style: dotted;
+  border-width:5px;
+  border-color: white;
+
+   height:100vh;
+}
+
+.corona{
+/*   width: 50vw;
+  height:80vh; */
+}
+
+.Jpage4{
+   padding-top:2em;
+  padding-bottom:2em;
+  display:flex;
+  align-items:center;
+  justify-content: center;
+  background-color: black;
+
+  border-top-style: dotted;
+  border-width:5px;
+  border-color: white;
+
+   height:100vh;
+}
+
+.Jtext4{
+  margin:2em;
+   color:white;
+  font-size: 3.0vh;
+  
+ 
+  max-width:50vw;
+  max-height:50vh;
+  
+}
+
+.Jpage5{
+   padding-top:2em;
+  padding-bottom:2em;
+  display:flex;
+  align-items:center;
+  justify-content: center;
+  background-color: black;
+
+  border-top-style: dotted;
+  border-width:5px;
+  border-color: white;
+
+   height:100vh;
+}
+
+.Jtext5{
+  margin:2em;
+   color:white;
+  font-size: 3.0vh;
+  
+ 
+  max-width:50vw;
+  max-height:50vh;
+  
+}
+
+.Jimg5{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ejection{
+   width:40vw;
+  height:30vw;
+}
+
+.switchback{
+  width:40vw;
+  height:30vw;
+}
+
+.img-col1 {
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+.img-col1,p{
+  font-size: 1.5vh;
+}
+
+.Jimg4{
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+}
+
+.Jimg3{
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+}
+.Jimg3, p{
+  font-size: 1.5vh;
+}
+
+.Jimg4, p{
+  font-size: 1.5vh;
+}
+
+.Jimg5, p{
+  font-size: 1.5vh;
+}
+
+.imgpage2{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  padding-right:10px;
+}
+.imgpage2, p {
+  font-size:1.5vh;
+}
+
+.wrapper {
+  height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  perspective: 10px;
+}
+header {
+  position: relative; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  transform-style: preserve-3d;
+  z-index: -1;
+}
+
+.background {
+  transform: translateZ (-10px) scale(2);
+}
+
+.background {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  z-index: -1;
+  
+}
+
+.title {
+  font-size: 5rem;
+  color: white;
+}
+
+p {
+  font-size: 1.5em;
+  margin-block-start:0em;
+  color: white;
+}
+.content h1 {
+  color: white;
+  font-weight: bold;
+  font-size: 250%;
+}
+.container {
+  position: absolute;
+  top:210%; 
+  left: 50%; 
+  transform: translate(-50%,-50%);
+ 
+  box-sizing: border-box;
+/*   background: #000; */
+  
+}
+.construction {
+  float: left;
+  height: "1200";
+  width: "866";
+  padding: 50px 45px 0 0 ;
+}
+.content {
+  padding: 40px 0 65px 0;
+}
+.orbiting {
+  float: right;
+  height: "1000";
+  width: "666";
+  padding: 100px 45px 5px 0 ;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
+
+
